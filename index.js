@@ -304,6 +304,8 @@ function grade(number){
 
 console.log('task 7', grade(85));
 
+// make change //
+
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
 //Vowel Counter - How many vowels are there?
