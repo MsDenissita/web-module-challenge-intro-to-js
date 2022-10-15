@@ -154,8 +154,8 @@ function hungryDog(weight, age){
     return weight * 0.04;
   }else if(age >= 1 && weight >= 11 && weight <= 15){
     return weight * 0.03;
-  }else if(age >= 1 && weight < 15){
-    return weight * 0.32;
+  }else if(age >= 1 && weight > 15){
+    return weight * 0.02;
   }else if(age < 1 && age >= 0.583){
     return weight * 0.04
   }else if(age < 0.583 && age >=0.333){
@@ -264,8 +264,8 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(number){
-for(let i = number; i > 0; i --){
-return `${i} bottles of soda on the wall,${i} bottles of soda, take one down pass it around ${i -1}bottles of soda on the wall`;
+for(let i = number; i > 0; i--){
+return `${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${i -1} bottles of soda on the wall`;
  }
       
 }
